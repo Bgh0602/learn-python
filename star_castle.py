@@ -4,6 +4,5 @@ floor = 1
 star = '*'
 while n > 0:
     n = n-1
-    floor = (floor-1)+1
     print(floor*star)
     floor = floor+1
