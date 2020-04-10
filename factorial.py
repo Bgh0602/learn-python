@@ -2,9 +2,7 @@
 
 n = int(input('n:'))
 result = 1
-while True:
+while n > 1:
     result = result*n
     n = n-1
-    if n <= 0:
-        print('n!=', result)
-        break
+    print('n!=', result)
