@@ -2,10 +2,9 @@
 
 n = int(input('n:'))
 result = 1
-origin = n
 while True:
-    n = n*(origin-result)
-    result = result+1
-    if (origin-result) <= 0:
-        print('n!=', n)
+    result = result*n
+    n = n-1
+    if n <= 0:
+        print('n!=', result)
         break
