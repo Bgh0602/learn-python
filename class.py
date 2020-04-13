@@ -1,8 +1,6 @@
 print('enter dan for gugudan(2~9)')
-dan = input('dan:')
+dan = int(input('dan:'))
 count = 1
-while True:
-    print(''+dan+'*'+str(count)+'='+str(int(dan)*count))
+while count < 10:
+    print(dan, '*', count, '=', dan*count)
     count += 1
-    if count > 9:
-        break
